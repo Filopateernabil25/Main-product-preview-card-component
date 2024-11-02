@@ -13,9 +13,13 @@
 }
 section{
     width: 40%;
+    height: 50vh;
     background-color: white;
     display: flex;
     border-radius: 10px;
+}
+.text{
+    letter-spacing: 5px;
 }
 .images{
     width: 50%;
@@ -33,7 +37,7 @@ section{
     justify-content:space-between;
     padding: 30px;
 }
-p{
+.part p{
     color: #81828E;
 }
 .part h1{
@@ -43,14 +47,14 @@ p{
 span{
     color: #377A61;
 }
-.t p{
+.not{
     text-decoration: line-through;
 }
 .part-two{
     display:flex;
     align-items: center;
 }
-.part-two .t{
+.part-two .not{
     padding-left: 20px;
 }
 button{
