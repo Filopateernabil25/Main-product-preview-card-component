@@ -76,6 +76,7 @@ button:hover{
     section{
         flex-basis: 90%;
         flex-direction: column;
+        height: fit-content;
     }
     .images img{
         display: none;
@@ -105,6 +106,8 @@ button:hover{
     section{
         flex-basis: 50%;
         flex-direction: column;
+        height: fit-content;
+
     }
     .images{
         /* display: none; */
@@ -143,6 +146,8 @@ button:hover{
 @media screen and (min-width:701px) and (max-width:1445px) {
     section{
         flex-basis: 50%;
+        height: fit-content;
+
     }
     .images{
         width: 100%;
